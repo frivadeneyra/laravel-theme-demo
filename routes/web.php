@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Theme::set('default');
+
 Route::get('/', function () {
     return view('welcome');
 });
