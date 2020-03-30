@@ -18,3 +18,7 @@ Theme::set('default');
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/tailwind', function() {
+    return view('tailwind');
+});
